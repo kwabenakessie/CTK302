@@ -11,23 +11,24 @@ function setup() {
 }
 
 function draw() {
-  background("pink");
-  fill("blue");
+  background("pink") ;
+  textSize(30) ;
+  fill("blue") ;
   text(
-    "The name of the song is slowmotion, I like it becouse I love slomotion Video",
-    250,
-    250,
-    400,
-    400,
+    "The name of the song is slowmotion, \nI like it becouse I love slowmotion Video!",
+    100,
+    200,
+    600,
+    600,
    
   );
 }
 
 function mouseReleased() {
-  if (slowmotion.isPlaying()){
+  if (slowmotion.isPlaying()) {
       slowmotion.pause();
   } else {
-      slowmotion.playing();
+      slowmotion.play();
   }
 }
 

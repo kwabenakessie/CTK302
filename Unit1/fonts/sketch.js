@@ -3,7 +3,7 @@ let f1, f2, f3 ;
 function setup() {
   createCanvas(500, 500);
   f1 = loadFont("assets/THESOLISTICE.ttf");
-  f2 = loadFont("assets/airstrikebold use.ttf");
+  f2 = loadFont("assets/airstrikebold.ttf");
   f3 = loadFont("assets/OriginTech.ttf");
   textAlign(CENTER);
 }
