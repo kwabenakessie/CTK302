@@ -8,7 +8,7 @@ function setup() {
 function draw() {
   background("blue");
   fill("gold")
-  textSize(100);
+  textSize(80);
   text("Hey Prof Rose!!", x, 200)
   text
   x += 3;
