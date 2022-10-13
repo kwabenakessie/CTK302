@@ -24,7 +24,7 @@ function preload(){
   i1 = loadImage("assets/images/portrait.png");
   i2 = loadImage("assets/images/yogurt.png");
   i3 = loadImage("assets/images/monaco.png");
-  i4 = loadImage("assets/images/sky.png");
+  i4 = loadImage("assets/images/sky1.png");
   i5 = loadImage("assets/images/gym.png");
   travel = loadImage("assets/images/travel.png");
 
