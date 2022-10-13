@@ -38,7 +38,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
-  textFont(font);
+  textFont(font2);
   //textFont(font2);
   
   
@@ -52,9 +52,9 @@ function draw() {
       //background("#ffcb08");
       image(bg,width/2, height/2, width,height);
       fill(0);
-      textSize(40);
+      textSize(30);
       fill(random(255), random(255), random(255));
-      text("Click to Explore", width/2 - 150, height/2  + 200);
+      text("Click to Explore", width/2 - 120, height/2  + 200);
       
       //x += 3;
       //if (x > windowWidth) {
@@ -131,7 +131,7 @@ function draw() {
         textAlign(LEFT);
         textFont(font2);
         textSize(14);
-        text("Go to gym", width / 2 - 118, height / 2 + 170);
+        text("Go to the gym", width / 2 - 118, height / 2 + 170);
         textFont(font);
         textSize(13);
         text("All progress takes place outside the \ncomfort zone.",
@@ -183,7 +183,7 @@ function draw() {
       textAlign(LEFT);
       textFont(font2);
       textSize(14);
-      text("My love Architechture", width / 2 - 118, height / 2 + 170);
+      text("Find a Passion", width / 2 - 118, height / 2 + 170);
         textFont(font);
         textSize(13);
         text("A doctor can bury his mistakes, but an \narchitect can only advise his clients \nto plant vines.",
