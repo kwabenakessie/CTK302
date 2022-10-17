@@ -3,7 +3,9 @@ let vol = 0;
 let i1;
 
 function preload(){
-  i1 = loadImage("assets/1.jpg");
+  
+  i1 = loadImage("https://images.unsplash.com/photo-1665263515157-e07dbcc7d2ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60");
+  
 }
 
 function setup() {
