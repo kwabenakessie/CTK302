@@ -25,14 +25,14 @@ function draw() {
   image(i1, width/2, height/2, width, height);
   switch (state) {
 
-    case 0:
+    case 1:
       text("Acoustic", 100, 100);
       if (!s1.isPlaying()){
         s1.play() ;
       }
       break;
 
-    case 1:
+    case 2:
       background("#FF70A6");
       image(i2, width/2, height/2, width, height);
       text("Inspire", 100, 100);
@@ -41,7 +41,7 @@ function draw() {
       }
       break;
 
-    case 2:
+    case 3:
       background("#FF9770");
       image(i3, width/2, height/2, width, height);
       text("Memories", 100, 100);
@@ -57,7 +57,7 @@ function mouseReleased() {
   s2.stop();
   s3.stop();
   state++;
-  if (state > 2) state = 0;
+  if (state > 3) state = 0;
 
   function touchStarted(){
     getAudioContext().resume();
