@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
 
-  background('#ffc9b9'); // light blue
+  background('#fefee3'); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -59,7 +59,7 @@ function draw() {
   // text("z = " + z.toFixed(4), 25, 190);
 
   // Text that makes CTK type in the background
-  fill('#fefee3');
+  fill('#ffc9b9');
   noStroke();
   textFont(font);
   textSize(300);
