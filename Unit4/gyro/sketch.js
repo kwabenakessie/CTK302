@@ -23,7 +23,7 @@ function setup() {
 
 function draw() {
 
-  background('#fefee3'); // light blue
+  background('#fefae0'); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -37,7 +37,7 @@ function draw() {
 
   rotate(radians(alpha)); // rotate the bunny depending on the alpha intake
 
-  image(bunnyImage, 0, 110, 1000, 1050);
+  image(bunnyImage, 0, 100, 500, 500);
   // rect(0, 0, 100, 100) ;
   pop();
 
@@ -62,9 +62,9 @@ function draw() {
   fill('#ffc9b9');
   noStroke();
   textFont(font);
-  textSize(300);
+  textSize(200);
   textAlign(CENTER);
-  text("Avocado", width / 2, height / 2 - 300);
+  text("Avocado", width / 2, height / 2 - 120);
 
 }
 
