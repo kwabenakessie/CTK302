@@ -83,10 +83,10 @@ function setup() {
 
 
   //Adding font
-  font = loadFont('assets/fonts/fira.ttf')
+  font = loadFont('assets/fonts/fira.ttf');
 
   // Adding nursery pot
-  nurseryPot = loadImage('assets/images/nurserypot.png')
+  nurseryPot = loadImage('assets/images/nurserypot.png');
 
   //Spawn bigtrees
   for (let i = 0; i <= maxBigtree; i++) {
