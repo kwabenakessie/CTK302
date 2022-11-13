@@ -62,7 +62,7 @@ function draw() {
   fill("#90a955");
   noStroke();
   textStyle(BOLD);
-  textSize(200);
+  textSize(70);
   textAlign(CENTER);
   text("Avocado", width / 2, height / 2 - 110);
 
