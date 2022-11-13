@@ -64,7 +64,7 @@ function draw() {
   textFont(font);
   textSize(200);
   textAlign(CENTER);
-  text("Avocado", width / 2, height / 2 - 120);
+  text("Avocado", width / 2, height / 2 - 110);
 
 }
 
